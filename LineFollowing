@@ -15,7 +15,7 @@ const int irPins[3] = {A5, A4, A3};
 /* Define values for the IR Sensor readings */
 int irSensorDigital[3] = {0, 0, 0};
 int threshold = 500; // IR sensor threshold value for line detection
-const int maxSpeed = 180; // the range for speed is(0,255)
+const int maxSpeed = 150; // the range for speed is(0,255)
 // binary representation of the sensor reading
 // 1 when the sensor detects the line, 0 otherwise
 int irSensors = B000;
