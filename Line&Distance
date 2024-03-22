@@ -156,7 +156,7 @@ rightServoSpeed = maxSpeed;
 
 void distanceSensor()
 {
-  int stoppingDistance = 6;
+  int stoppingDistance = 12;
   int stopBot = 0;
   // The sensor is triggered by a HIGH pulse of 10 or more microseconds.
   // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
